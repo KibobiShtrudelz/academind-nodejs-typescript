@@ -1,0 +1,28 @@
+{
+  "name": "academind-nodejs-typescript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon dist/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KibobiShtrudelz/academind-nodejs-typescript.git"
+  },
+  "author": "Petar Kolev",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KibobiShtrudelz/academind-nodejs-typescript/issues"
+  },
+  "homepage": "https://github.com/KibobiShtrudelz/academind-nodejs-typescript#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.2",
+    "@types/node": "^12.12.17",
+    "nodemon": "^2.0.2"
+  }
+}
